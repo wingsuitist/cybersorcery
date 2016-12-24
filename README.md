@@ -1,5 +1,13 @@
 # Cybersorcery
 
+This is a game of the http://www.nelevonlanthen.com universe for inspiring users to learn more about the eminent cyberspace surounding us.
+
+Disclaimer: This is an entertainment, learning and inspirational game with good intentions and without any warranty. This game and all it's related content is a work of fiction. Any references to historical events, real people or real locales are used fictitiously. Other names, characters, places and incidents are products of the author’s imagination, and any resemblance to actual events or locales or persons, living or dead, is entirely coincidental.  Do not use any of the learned skills to harm anyone or break any law. Missusing any IT systems can be a fellony depending on your country. We condemn any illegal activity. (Todo: check legal correct defintion/text)
+
+!! Please read LICENCE !!
+
+# Angular-CLI info
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 
 ## Development server
