@@ -7,15 +7,9 @@
     </a>
   </h2>
 
-  <p>{{message}}</p>
+  <p *ngFor="let message of game.messages">{{message}}</p>
 
-  <csy-missions 
-    *ngIf="!gameEnded"
-    (onEndGame)="endGame($event)"></csy-missions>
-
-  <button
-    (click)="restartGame()"
-    *ngIf="gameEnded">Restart Game</button>
+  <button *ngIf="!game.running" (click)="startGame()">Start</button>
 
   <hr>
   <p>

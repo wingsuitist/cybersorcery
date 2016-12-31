@@ -1,22 +1,18 @@
 import { Component } from '@angular/core';
 
+import { GameService } from './shared';
+
 @Component({
   selector: 'csy-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  gameEnded: boolean = false;
-  message: string;
+  constructor(
+    private game: GameService
+  ){}
 
-  endGame(message) {
-    console.log("app: " + message);
-    this.gameEnded = true;
-    this.message = message;
-  }
-
-  restartGame() {
-    this.gameEnded = false;
-    this.message = undefined;
+  startGame() {
+    this.game.start();
   }
 }
