@@ -1,11 +1,17 @@
 import { Injectable } from '@angular/core';
 
+import { BaseMission } from './';
+import { FindJaneMission } from './missions';
+
 @Injectable()
 export class GameService {
   running: boolean = false; 
   messages: string[] = [];
+  missions: Array<BaseMission> = [];
 
-  constructor() { }
+  constructor() {
+    this.missions.push(new FindJaneMission());
+  }
 
   start() {
     this.addMessage('Game Started!');

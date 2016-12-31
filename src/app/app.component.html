@@ -12,6 +12,14 @@
   <button *ngIf="!game.running" (click)="startGame()">Start</button>
 
   <hr>
+
+  <h2>Missions</h2>
+
+  <ul>
+    <li *ngFor="let mission of game.missions">{{mission.title}}</li>
+  </ul>
+
+  <hr>
   <p>
     <strong>Disclaimer:</strong>
     This is an entertainment, learning and inspirational game with good intentions and without any warranty. This game and all it's related content is a work of fiction. Any references to historical events, real people or real locales are used fictitiously. Other names, characters, places and incidents are products of the author’s imagination, and any resemblance to actual events or locales or persons, living or dead, is entirely coincidental.  Do not use any of the learned skills to harm anyone or break any law. Missusing any IT systems can be a fellony depending on your country. We condemn any illegal activity. (Todo: check legal correct defintion/text)
