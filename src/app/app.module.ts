@@ -5,6 +5,9 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { MissionsModule } from './missions';
+import { EngineModule } from './engine';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +15,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    EngineModule,
+    MissionsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

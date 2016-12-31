@@ -18,7 +18,7 @@
       "prefix": "csy",
       "mobile": false,
       "styles": [
-        "styles.sass"
+        "styles.css"
       ],
       "scripts": [],
       "environments": {
@@ -41,7 +41,7 @@
     }
   },
   "defaults": {
-    "styleExt": "sass",
+    "styleExt": "css",
     "prefixInterfaces": false,
     "inline": {
       "style": false,

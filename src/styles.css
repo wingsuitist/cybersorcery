@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: Monaco, monospace;
+  font-size: 14px;
+  color: #F0F0F0;
+  background-color: #232323;
+}
+
+a {
+  color: #f5f728;
+  text-decoration: none;
+}
+
+.left, .right {
+  width: 49%;
+  min-height: 85%;
+}
+
+.left { 
+  border: 1px solid green;
+}
+
+.right {
+  float:right;
+  border: 1px solid orange;
+}
